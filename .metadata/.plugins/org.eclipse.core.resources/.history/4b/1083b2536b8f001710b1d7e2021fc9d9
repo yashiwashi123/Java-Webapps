@@ -1,0 +1,33 @@
+
+    <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+    <%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql" %>
+
+<c:import url="Welcome.jsp"> 
+
+<c:param name="title" value="WaifuRanker - View Image"></c:param>
+</c:import>
+<sql:setDataSource var ="ds" dataSource="jdbc/webshop" />
+<!-- selects the "webshop" schema from mysql and sets it to the "ds" variable  -->
+
+<sql:query dataSource="${ds}" sql="select * from images where id=?" var = "results" >
+<sql:param>${param.image } </sql:param>
+ </sql:query>
+<!-- query's through the "images" table and selects all --> 
+
+
+	<c:set scope ="page" var="imgname" value="${results.rows[0] }"> </c:set>
+	<c:set scope ="page" var="imgname" value="${image.stem}.${image.image_extension}"> </c:set>		
+	
+		<figure>
+		<img src="${pageContext.request.contextPath}/waifu/${imgname}" 
+		/>		
+		<br />
+		<figcaption> Waifu # ${image.id}</figcaption>		
+		</figure>
+		
+	
+
+
+
+
+

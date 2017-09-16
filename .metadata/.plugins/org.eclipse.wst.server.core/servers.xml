@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v7.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v7.0 Server at localhost" name="Tomcat v7.0 Server at localhost" runtime-id="Apache Tomcat v7.0" server-type="org.eclipse.jst.server.tomcat.70" server-type-id="org.eclipse.jst.server.tomcat.70" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="13">
+    <list key="modules" value0="DataBases::org.eclipse.jst.jee.server:DataBases::jst.web::2.5" value1="Emails::org.eclipse.jst.jee.server:Emails::jst.web::2.5" value2="JSTL::org.eclipse.jst.jee.server:JSTL::jst.web::2.5" value3="PictureRanker::org.eclipse.jst.jee.server:PictureRanker::jst.web::3.0" value4="FileUploader::org.eclipse.jst.jee.server:FileUploader::jst.web::2.5"/>
+  </server>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v9.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v9.0 Server at localhost" name="Tomcat v9.0 Server at localhost" runtime-id="Apache Tomcat v9.0" server-type="org.eclipse.jst.server.tomcat.90" server-type-id="org.eclipse.jst.server.tomcat.90" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="1">
+    <list key="modules" value0="MVCForm::org.eclipse.jst.jee.server:MVCForm::jst.web::3.1"/>
+  </server>
+</servers>

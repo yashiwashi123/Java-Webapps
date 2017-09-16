@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Deployment/WebContent/copywrite &apos; to &apos;copyright&apos;" description="Rename resource &apos;copywrite &apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/copywrite " name="copyright" stamp="1502072248308" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Deployment/WebContent/copyright&apos; to &apos;copyright.txt&apos;" description="Rename resource &apos;copyright&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/copyright" name="copyright.txt" stamp="1502072267381" updateReferences="true"/>
+</session>

@@ -40,10 +40,10 @@ public class SendMail {
 		Message msg = new MimeMessage(session); 
 		
 		try {
-			msg.setSubject("Dearest Ethan");
+			msg.setSubject("Dearest Pim");
 			msg.setText("u a hoe");
 			msg.setFrom(new InternetAddress("hashemiyashar@gmail.com", "xxSWAGLORD420xx"));
-			msg.setRecipient(Message.RecipientType.TO, new InternetAddress("ei2068@bard.edu"));
+			msg.setRecipient(Message.RecipientType.TO, new InternetAddress("ptrouerbach@lclark.edu"));
 			for (int i = 0; i < 30; i++) {
 			Transport.send(msg);
 			}

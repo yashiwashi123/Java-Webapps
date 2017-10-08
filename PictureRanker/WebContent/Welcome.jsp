@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>WaifuRanker</title>
+<title>Picture Ranker</title>
 </head>
 <body>
 <figure>

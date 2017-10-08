@@ -4,7 +4,7 @@
 
 <c:import url="home.jsp"> 
 
-<c:param name="title" value="WaifuRanker Home"></c:param>
+<c:param name="title" value="PictureRanker Home"></c:param>
 </c:import>
 <sql:setDataSource var ="ds" dataSource="jdbc/webshop" />
 <!-- selects the "webshop" schema from mysql and sets it to the "ds" variable  -->
@@ -33,7 +33,7 @@
 		<img src="${pageContext.request.contextPath}/waifu/${imgname}" 
 		width="80" height="80" />		
 		<br />
-		<figcaption> Waifu # ${image.id}</figcaption>		
+		<figcaption> Picture # ${image.id}</figcaption>		
 		</figure>
 		</td>
 		

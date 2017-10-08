@@ -5,7 +5,7 @@
 <%@ taglib tagdir="/WEB-INF/tags" prefix="ps" %>
 
 <c:import url="Welcome.jsp">
-	<c:param name="title" value="Waifu Ranker - View Image"></c:param>
+	<c:param name="title" value="Picture Ranker - View Image"></c:param>
 </c:import>
 
 <center>
